@@ -1,27 +1,26 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
 using UIKit;
 
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+
 namespace Noteplus.iOS
 {
-	[Register("AppDelegate")]
-	public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+	[Register ("AppDelegate")]
+	public partial class AppDelegate : FormsApplicationDelegate
 	{
-		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
+		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
-			global::Xamarin.Forms.Forms.Init();
+			// affects all UISwitch controls in the app
+			UISwitch.Appearance.OnTintColor = UIColor.FromRGB(0x91, 0xCA, 0x47);
 
-			// Code for starting up the Xamarin Test Cloud Agent
-#if ENABLE_TEST_CLOUD
-			Xamarin.Calabash.Start();
-#endif
-
-			LoadApplication(new App());
-
-			return base.FinishedLaunching(app, options);
+			Forms.Init ();
+			LoadApplication (new App ());
+			return base.FinishedLaunching (app, options);
 		}
 	}
 }

@@ -1,13 +1,28 @@
-# Noteplus
-A mobile app which keep tracks of lecture, listening or interviews, to-do lists with the help of audio or video recording. A person can take notes and draw essential elements while audio is being recording. Other features include sharing notes, audio or videos and more.
+Todo (Xamarin.Forms)
+=======
 
-Why?
-Students and journalist regularly miss the important part of lecture or interviews. This is particularly when they are supposing to attend more than one or two lectures or interviews at the time or in a single day. Using too many stick notes and applying them on refrigerators and car dashboards is too old fashioned and time consuming. Especially when there is a lot of work and things to remember and do.
+Xamarin.Forms provides two solution templates for building cross-platform applications: PCL or Shared Project. This **Todo** sample application is provided using both templates. The Xamarin.Forms application code is fundamentally the same, except where the database connection is created (because it requires a file-system reference to the SQLite data file).
 
-Target Audience
-High School students.
-Undergraduate students.
-Post-graduate students.
-Journalists.
-Common Man
-Smartphone users.
+![screenshot](https://raw.githubusercontent.com/xamarin/xamarin-forms-samples/master/Todo/Screenshots/Todo-list-sml.png "ListView")
+
+![screenshot](https://raw.githubusercontent.com/xamarin/xamarin-forms-samples/master/Todo/Screenshots/Todo-detail-sml.png "Detail View")
+
+**NOTE:** Windows Phone requires you to download <a href="http://www.sqlite.org/download.html#wp8" target="_blank">Precompiled Binaries for Windows Phone 8 VSIX</a> and install in Visual Studio; this enables the **SQLite for Windows Phone** extension that you can then add to your app.
+
+Right-click **References** and select **Add Reference**. Go to **Windows Phone > Extensions** and check the option **SQLite for Windows Phone** to add the extension to the project.
+
+PCL (Portable Class Library)
+---
+This solution uses the [SQLite.NET PCL](https://www.nuget.org/packages/SQLite.Net-PCL/) NuGet to provide a cross-platform implementation of the SQLite database API. The shared PCL project references the NuGet to implement the `TaskDatabase` class. Platform-specific instances of the `SQLiteConnection` are created and injected on each platform (in `AppDelegate`, `MainActivity`, and `MainPage`). 
+
+
+Shared Project
+--------------
+This version uses the raw C# source of [SQLite.NET](https://github.com/praeclarum/sqlite-net/) in the **Shared Project**, which is accessed by the `TaskDatabase` class. There is a compiler-directive (`#if __IOS__`) in the `TaskDatabase` class that is used to determine the correct filename for each platform.
+
+
+
+Authors
+-------
+
+Craig Dunn, Bryan Costanich
