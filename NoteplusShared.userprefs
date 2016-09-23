@@ -1,23 +1,8 @@
 ﻿<Properties StartupConfiguration="{0286BCC0-AAC9-492B-A940-A1260837ECDE}|Default">
   <MonoDevelop.Ide.ItemProperties.Platforms.Noteplus.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/App.cs">
-    <Files>
-      <File FileName="Android/TextToSpeech_Android.cs" Line="11" Column="53" />
-      <File FileName="iOS/TextToSpeech_iOS.cs" Line="10" Column="37" />
-      <File FileName="ToDo/ITextToSpeech.cs" Line="7" Column="2" />
-      <File FileName="Android/MainActivity.cs" Line="27" Column="3" />
-      <File FileName="ToDo/App.cs" Line="30" Column="2" />
-      <File FileName="Android/ITextToSpeech.cs" Line="7" Column="2" />
-      <File FileName="Android/packages.config" Line="1" Column="1" />
-      <File FileName="Android/App.cs" Line="23" Column="4" />
-      <File FileName="iOS/ITextToSpeech.cs" Line="7" Column="2" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="iOS/AppDelegate.cs" Line="22" Column="27" />
-      <File FileName="iOS/App.cs" Line="11" Column="7" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.ItemProperties.Platforms.Noteplus.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

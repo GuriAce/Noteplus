@@ -5,7 +5,7 @@
 	<Level>Beginner</Level>
 	<Tags>Data, User Interface, Xamarin.Forms</Tags>
 	<SupportedPlatforms>iOS, Android, Windows</SupportedPlatforms>
-	<LicenseRequirement>Indie</LicenseRequirement>
+	<LicenseRequirement></LicenseRequirement>
 	<Gallery>true</Gallery>
-	<Brief>Demonstrates using either PCL or Shared Project templates.</Brief>
+	<Brief></Brief>
 </SampleMetadata>

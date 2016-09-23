@@ -1,0 +1,9 @@
+﻿<Properties StartupConfiguration="{0286BCC0-AAC9-492B-A940-A1260837ECDE}|Default">
+  <MonoDevelop.Ide.ItemProperties.Noteplus.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{0286BCC0-AAC9-492B-A940-A1260837ECDE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Android/MainActivity.cs">
+    <Files>
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.0.6/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="1" Column="1" />
+      <File FileName="Todo/Views/TodoItemCell.cs" Line="1" Column="1" />
+      <File FileName="Todo/Views/TodoListPage.cs" Line="21" Column="19" />
+      <File FileName="Todo/Views/TodoItemPage.cs" Line="47" Column="25" />
+      <File FileName="Todo/Models/TodoItem.cs" Line="1" Column="1" />
+      <File FileName="Todo/Data/TodoItemDatabase.cs" Line="1" Column="1" />
+      <File FileName="Todo/App.cs" Line="25" Column="48" />
+      <File FileName="Todo/Data/SQLite.cs" Line="1" Column="136" />
+      <File FileName="Android/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Platforms.Todo.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.Platforms.Todo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>
