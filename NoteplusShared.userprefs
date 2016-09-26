@@ -1,8 +1,24 @@
 ﻿<Properties StartupConfiguration="{0286BCC0-AAC9-492B-A940-A1260837ECDE}|Default">
   <MonoDevelop.Ide.ItemProperties.Platforms.Noteplus.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.ItemProperties.Platforms.Noteplus.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Android/Properties/AndroidManifest.xml">
+    <Files>
+      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.0.0.6/lib/mono/2.1/Xamarin.iOS.Common.targets" Line="393" Column="11" />
+      <File FileName="iOS/Views/TodoItemCell.cs" Line="1" Column="1" />
+      <File FileName="iOS/Views/TodoItemPage.cs" Line="1" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="Android/MainApplication.cs" Line="1" Column="1" />
+      <File FileName="Android/App.cs" Line="1" Column="1" />
+      <File FileName="Android/ITextToSpeech.cs" Line="1" Column="1" />
+      <File FileName="Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="Android/packages.config" Line="1" Column="1" />
+      <File FileName="Android/TextToSpeech_Android.cs" Line="1" Column="1" />
+      <File FileName="Android/Properties/AndroidManifest.xml" Line="8" Column="12" />
+      <File FileName="Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Android/Assets/AboutAssets.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Platforms.Noteplus.iOS PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

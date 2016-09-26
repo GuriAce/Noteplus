@@ -114,16 +114,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Resources\check.png" />
-    <BundleResource Include="Resources\check%402x.png" />
-    <BundleResource Include="Resources\Default.png" />
-    <BundleResource Include="Resources\Default%402x.png" />
-    <BundleResource Include="Resources\Icon-60%402x.png" />
-    <BundleResource Include="Resources\Icon-Small.png" />
-    <BundleResource Include="Resources\Icon-Small%402x.png" />
-    <BundleResource Include="Resources\Icon.png" />
-    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\plus.png" />
+    <BundleResource Include="Resources\tick.png" />
+    <BundleResource Include="Resources\signature.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -139,6 +132,9 @@
     <Compile Include="Data\SQLite.cs" />
     <Compile Include="Data\TodoItemDatabase.cs" />
     <Compile Include="Models\TodoItem.cs" />
+    <Compile Include="Views\Attachment.xaml.cs">
+      <DependentUpon>..\..\Android\Views\Attachment.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\TodoItemCell.cs" />
     <Compile Include="Views\TodoItemPage.cs" />
     <Compile Include="Views\TodoListPage.cs" />
@@ -147,6 +143,22 @@
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Attachment.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-57x57%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
